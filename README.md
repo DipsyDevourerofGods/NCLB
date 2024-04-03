@@ -51,6 +51,7 @@ Wurrif Cruiser (Lwhekk, 7+ influence)
 L'Whekk Manufacturing Ship (Lwhekk, 9+ influence)
 Shree Battlecruiser (Lwhekk, 10+ influence)
 Dauntless Heavy Transport Cruiser (Sullust, 9+ influence)
+Princess Transport Cruiser (Mon Cala, 8+ influence)
 Liberty Transport Cruiser (Mon Cala, 9+ influence) (NR Excluded)
 Home One Exploration Cruiser (Mon Cala, 10 influence) (NR Excluded)
 Lucrehulk-class Auxilary Warship (Oslumpex V, 10 influence) (CSA Excluded)
@@ -116,7 +117,6 @@ Heavy Espo Trooper (Replaces Espo at Influence 10)
 Guardian Corps (requires Officer Academy)
 Crimson Condottierre (Capital Building)
 
-
 [u] Influence [/u]
 A6 Juggernaut (Kuat, 10 influence)
 Aratech Battle Platform (Carida, 10 Influence)
@@ -124,8 +124,6 @@ Assault Gian Speeder (Naboo, 8+ influence)
 Sorosuub Speeder (Sullust, 9+ influence)
 Ssi-Ruuk Troopers (Lwhekk, 8+ influence)
 Local Force Cultists (Korriban, 10 influence)
-
-
 
 [h1] - WARNING [/h1]
 This submod is guaranteed to be incompatible with any other submod that edits the XML or LUA code for units, structures, or Heroes (which is almost all of them). If you run into any problems while trying to run this submod with others, be sure to double check which files the two mods edit.
