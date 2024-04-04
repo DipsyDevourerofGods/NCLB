@@ -3581,8 +3581,9 @@
 		<AI_Combat_Power>177</AI_Combat_Power>
 		<Population_Value>2</Population_Value>
 		<Affiliation>Zsinj_Empire</Affiliation>
-		<Tech_Level>99</Tech_Level>
-
+		<Tech_Level>0</Tech_Level>
+		<Required_Planets>Atchorb, Bonadan, Ession, Etti, Kalla, Maryo, Mytus, Orron, Oslumpex, Saffalore, Trian, Ulicia</Required_Planets>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -4230,7 +4231,7 @@
 
 		<Affiliation></Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		
@@ -5423,9 +5424,13 @@
 		<Variant_Of_Existing_Type>Template_Corellian_Gunboat</Variant_Of_Existing_Type>
 
 		<Affiliation>Zsinj_Empire</Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Pirate_Base,
+		AI_Category_Dummy | Non_Capital_Category_Dummy,
+		</Required_Special_Structures>
 
 		<HardPoints>
 				HP_Corellian_Gunship_01,
@@ -8444,7 +8449,7 @@
 		<Autoresolve_Health>3000</Autoresolve_Health>
 		<Damage>40</Damage>
 		
-		<Affiliation>Warlords, Yevetha</Affiliation>
+		<Affiliation>Greater Maldrood, Warlords, Yevetha</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>12</Maintenance_Cost>
 
@@ -9875,7 +9880,7 @@
 	
 	<SpaceUnit Name="Victory_I_Frigate">
 		<Variant_Of_Existing_Type>Template_Victory_I_Frigate</Variant_Of_Existing_Type>
-		<Affiliation>Yevetha</Affiliation>
+		<Affiliation>Eriadu_Authority, Yevetha</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -11303,7 +11308,7 @@
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>10</Squadron_Capacity>
 
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
@@ -12728,11 +12733,14 @@
 	
 	<SpaceUnit Name="Super_Transport_VI">
 		<Variant_Of_Existing_Type>Template_Super_Transport_VI</Variant_Of_Existing_Type>
-		<Affiliation>  </Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+			Pirate_Base,
+			AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
 		<Required_Planets/>
 		
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
@@ -12745,11 +12753,14 @@
 	
 	<SpaceUnit Name="Super_Transport_VII">
 		<Variant_Of_Existing_Type>Template_Super_Transport_VII</Variant_Of_Existing_Type>
-		<Affiliation>  </Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Zsinj_Empire</Affiliation>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+			Pirate_Base,
+			AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
 		<Required_Planets/>
 		
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>

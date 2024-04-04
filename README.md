@@ -19,8 +19,9 @@ Refurbished Venator (Replaces Procursator, eras 6-7 only)
 Missile Boat (replaces Empire ship Starwing spawns in Eras 3 and 7)
 
 [u] Warlord Zsinj [/u]
-Skandrei gunship (Corporate Sector only)
-Super Transport VI
+Skandrei gunship (Corporate Sector planets)
+DP20 Gunboat (pirate base)
+Super Transport VII (pirate base)
 Gladiator-2 class SD
 
 [u] Greater Maldrood [/u]
@@ -41,6 +42,9 @@ SuperCruiser
 
 [u] Empire of The Hand [/u]
 Furion Interceptor (added to Phalanx and Intego)
+
+[u] Hutt Cartels [/u]
+Super Transport VI (pirate base)
 
 [u] Influence [/u]
 Proficient Light Cruiser (Corellia, 9+ influence)
