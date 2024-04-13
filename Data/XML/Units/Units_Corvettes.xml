@@ -2506,7 +2506,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		
 
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline/>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		
@@ -2518,6 +2518,7 @@
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Required_Special_Structures>
+		Incom_HQ,
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
@@ -4229,14 +4230,14 @@
 	<SpaceUnit Name="Charger_C70">
 		<Variant_Of_Existing_Type>Template_Charger_C70</Variant_Of_Existing_Type>
 
-		<Affiliation></Affiliation>
+		<Affiliation>Hutt_Cartels</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		
 		<Required_Special_Structures>
-		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
+		Pirate_Base,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Required_Planets/>
@@ -5423,14 +5424,11 @@
 	<SpaceUnit Name="DP20_Zsinj">
 		<Variant_Of_Existing_Type>Template_Corellian_Gunboat</Variant_Of_Existing_Type>
 
-		<Affiliation>Zsinj_Empire</Affiliation>
+		<Affiliation></Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>
-		Pirate_Base,
-		AI_Category_Dummy | Non_Capital_Category_Dummy,
-		</Required_Special_Structures>
+		<Required_Special_Structures/>
 
 		<HardPoints>
 				HP_Corellian_Gunship_01,
@@ -6277,6 +6275,18 @@
 		<Build_Cost_Credits>550</Build_Cost_Credits>
 		
 		<AI_Combat_Power>152</AI_Combat_Power>
+
+		<Affiliation>Zsinj_Empire</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Required_Special_Structures>
+			Pirate_Base,
+			AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
 		
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
@@ -8449,7 +8459,7 @@
 		<Autoresolve_Health>3000</Autoresolve_Health>
 		<Damage>40</Damage>
 		
-		<Affiliation>Greater Maldrood, Warlords, Yevetha</Affiliation>
+		<Affiliation>Greater_Maldrood, Warlords, Yevetha</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>12</Maintenance_Cost>
 
@@ -11321,6 +11331,7 @@
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
+		<Required_Planets>Mon_Calamari</Required_Planets>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>

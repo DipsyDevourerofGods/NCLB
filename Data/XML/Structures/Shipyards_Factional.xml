@@ -2532,7 +2532,7 @@
 			<Reduce_Production_Price_Ability Name="No_Piratical_Spam">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> DP20_Zsinj, Interceptor_Frigate, Action_VI_Support, Super_Transport_VI, Super_Transport_VII, Space_ARC_Cruiser, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, Dreadnaught_Lasers, Venator_Refit </Applicable_Unit_Types>
+				<Applicable_Unit_Types> LAAT_Gunship, Lancer_Frigate_PDF, Charger_C70, Interceptor_Frigate, Action_VI_Support, Super_Transport_VI, Super_Transport_VII, Space_ARC_Cruiser, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, Dreadnaught_Lasers, Venator_Refit </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>-0.01</Price_Reduction_Percentage>
 				<Stacking_Category>8</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -2541,7 +2541,7 @@
 			<Reduce_Production_Time_Ability Name="No_Piratical_Spam2">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> DP20_Zsinj, Interceptor_Frigate, Action_VI_Support, Space_ARC_Cruiser, Super_Transport_VI, Super_Transport_VII, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, Dreadnaught_Lasers, Venator_Refit </Applicable_Unit_Types>
+				<Applicable_Unit_Types> LAAT_Gunship, Lancer_Frigate_PDF, Charger_C70, Interceptor_Frigate, Action_VI_Support, Space_ARC_Cruiser, Super_Transport_VI, Super_Transport_VII, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, Dreadnaught_Lasers, Venator_Refit </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>-9</Time_Reduction_Percentage>
 				<Stacking_Category>10</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>

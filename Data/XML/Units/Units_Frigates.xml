@@ -774,12 +774,19 @@
 	
 	<SpaceUnit Name="Neutron_Star_Mercenary">
 		<Variant_Of_Existing_Type>Template_Neutron_Star_Mercenary</Variant_Of_Existing_Type>
-		<Affiliation/>
+		<Affiliation>Pentastar</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+			Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+			CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four,
+			AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
 		<Lua_Script>GenericGameObject</Lua_Script>
 	</SpaceUnit>
 
@@ -807,7 +814,20 @@
 
 		<AI_Combat_Power>585</AI_Combat_Power>
 
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Greater_Maldrood</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+			Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+			CSA_Ship_Market,
+			AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
 
 		<Population_Value>7</Population_Value>
 
@@ -1124,8 +1144,22 @@
 
 		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
-		<Required_Orbiting_Units>Corellian_Gunboat_Ferrier</Required_Orbiting_Units>
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>
+			EotH_Shipyard_Level_One | EotH_Shipyard_Level_Two | EotH_Shipyard_Level_Three | EotH_Shipyard_Level_Four |
+			Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_One | Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_One | Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Eriadu_Shipyard_Level_One | Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Pentastar_Shipyard_Level_One | Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four |
+			Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
+			Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+			AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets>Katana_Space</Required_Planets>
+		<Build_Limit_Lifetime_Per_Player>20</Build_Limit_Lifetime_Per_Player>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Tactical_Build_Prerequisites/>
@@ -1134,11 +1168,12 @@
 	<SpaceUnit Name="Katana_Dreadnaught_Rebel">
 		<Variant_Of_Existing_Type>Katana_Dreadnaught</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Orbiting_Units>Wild_Karrde</Required_Orbiting_Units>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>
 		NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Katana_Space</Required_Planets>
+		<Build_Limit_Lifetime_Per_Player>20</Build_Limit_Lifetime_Per_Player>
 		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
@@ -1666,7 +1701,7 @@
 		<Autoresolve_Health>2200</Autoresolve_Health>
 		<Damage>30</Damage>
 
-		<Affiliation>Yevetha</Affiliation>
+		<Affiliation>Zsinj_Empire, Yevetha</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>24</Maintenance_Cost>
 
@@ -2976,7 +3011,7 @@
 		<Autoresolve_Health>2800</Autoresolve_Health>
 		<Damage>30</Damage>
 
-		<Affiliation>Zsinj_Empire</Affiliation>
+		<Affiliation>Empire, Pentastar, Zsinj_Empire, Greater_Maldrood, Eriadu_Authority</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>24</Maintenance_Cost>
 
@@ -3012,13 +3047,13 @@
 		</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Initially_Locked>yes</Build_Initially_Locked>
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits> 1800</Score_Cost_Credits>
 		<Population_Value>11</Population_Value>
 		<Space_Override_Population_Value/>
-
+		
 		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
 		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
@@ -3239,6 +3274,160 @@
 
 	</SpaceUnit>
 
+	<SpaceUnit Name="Supercruiser">
+		<Variant_Of_Existing_Type>Template_Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SUPERCRUISER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_SUPERCRUISER
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_SUPERCRUISER_HULL
+			TEXT_TOOLTIP_SUPERCRUISER_SHIELD
+			TEXT_TOOLTIP_SUPERCRUISER_MOVE
+			TEXT_TOOLTIP_SUPERCRUISER_SQUADRON
+			TEXT_TOOLTIP_SUPERCRUISER_WEAP1
+			TEXT_TOOLTIP_SUPERCRUISER_WEAP2
+			TEXT_TOOLTIP_SUPERCRUISER_WEAP3
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+			TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+			TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<Shield_Points>2000</Shield_Points>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Tactical_Health>2100</Tactical_Health>
+
+		<AI_Combat_Power>704</AI_Combat_Power>
+
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Population_Value>15</Population_Value>
+
+		<HardPoints>
+			HP_Supercruiser_Weapon_FL, HP_Supercruiser_Weapon_FR, HP_Supercruiser_Weapon_FC, HP_Supercruiser_Weapon_BC, HP_Supercruiser_Weapon_BL, HP_Supercruiser_Weapon_BR, HP_Acclamator_Engines, HP_Acclamator_Fighter_Bay
+		</HardPoints>
+
+		<Affiliation>Pentastar</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+			Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four,
+			AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_GT_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_X2_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_GT_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_X2_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target/>
+		<SFXEvent_Bombard_Incoming>Orbital_Bombardment_SFX</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_Acclamator</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Acclamator </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Acclamator </SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Shields_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Engines_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, null </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Supercruiser_Sensor_Jamming </GUI_Activated_Ability_Name>
+				<Recharge_Seconds>70.0</Recharge_Seconds>
+				<Expiration_Seconds>10.0</Expiration_Seconds>
+				<Effective_Radius>450.0</Effective_Radius>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>0</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.01f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_ABILITY_RETREAT</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_RETREAT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_FORCE_CONFUSE.TGA</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Activated>RHD_Retreat_Started_Space</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Sensor_Jamming_Ability Name="Supercruiser_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_Large</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+			<Planet_Income_Bonus_Ability Name="Maintenance_Cost">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_UNIT_UPKEEP</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>-30</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</SpaceUnit>
+
 	<SpaceUnit Name="Alliance_Assault_Frigate_II">
 
 		<Text_ID>TEXT_UNIT_ASSAULT_FRIGATE_II</Text_ID>
@@ -3309,7 +3498,7 @@
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>12</Squadron_Capacity>
 
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
@@ -3320,6 +3509,7 @@
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Required_Special_Structures>
 		NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
+		Rendili_HQ,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
 		</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
@@ -4998,12 +5188,12 @@
 	<SpaceUnit Name="Generic_Acclamator_Assault_Ship_I">
 		<Variant_Of_Existing_Type>Template_Acclamator_Assault_Ship</Variant_Of_Existing_Type>
 
-		<Affiliation/>
+		<Affiliation>Greater_Maldrood</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>
-						Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+		Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
 		Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |	
 		Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
 		Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
@@ -6354,10 +6544,24 @@
 		</HardPoints>
 
 		<Targeting_Max_Attack_Distance>2550.0</Targeting_Max_Attack_Distance>
-		
+
 		<Affiliation>Rebel</Affiliation>
 
 		<Tech_Level>99</Tech_Level>
+		<Required_Special_Structures>
+			EotH_Shipyard_Level_One | EotH_Shipyard_Level_Two | EotH_Shipyard_Level_Three | EotH_Shipyard_Level_Four |
+			Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_One | Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_One | Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Eriadu_Shipyard_Level_One | Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Pentastar_Shipyard_Level_One | Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four |
+			Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
+			Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+			DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_NINE,
+			AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets>Sullust</Required_Planets>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
@@ -6580,15 +6784,26 @@
 	
 	<SpaceUnit Name="Kuari_Princess_Liner">
 		<Variant_Of_Existing_Type>Template_Kuari_Princess_Liner</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Rebel</Affiliation>
 
-		<Tech_Level>0</Tech_Level>
-		
+		<Tech_Level>99</Tech_Level>
+
 		<Required_Special_Structures>
-		NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
-		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+			NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
+			EotH_Shipyard_Level_One | EotH_Shipyard_Level_Two | EotH_Shipyard_Level_Three | EotH_Shipyard_Level_Four |
+			Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_One | Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_One | Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Eriadu_Shipyard_Level_One | Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Pentastar_Shipyard_Level_One | Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four |
+			Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
+			Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+			DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT,
+			AI_Category_Dummy | Heavy_Frigate_Category_Dummy
 		</Required_Special_Structures>
+		<Required_Planets>Mon_Calamari</Required_Planets>
 		
 		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		
@@ -6603,9 +6818,19 @@
 		<Tech_Level>99</Tech_Level>
 
 		<Required_Special_Structures>
-		NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
-		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+			EotH_Shipyard_Level_One | EotH_Shipyard_Level_Two | EotH_Shipyard_Level_Three | EotH_Shipyard_Level_Four |
+			Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_One | Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_One | Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Eriadu_Shipyard_Level_One | Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Pentastar_Shipyard_Level_One | Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four |
+			Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
+			Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+			DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_NINE,
+			AI_Category_Dummy | Heavy_Frigate_Category_Dummy
 		</Required_Special_Structures>
+		<Required_Planets>Mon_Calamari</Required_Planets>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
@@ -6717,17 +6942,91 @@
 		</Unit_Abilities_Data>
 
 	</SpaceUnit>
+
+	<SpaceUnit Name="Calamari_Justice">
+		<Variant_Of_Existing_Type>Calamari_Cruiser</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_CALAMARI_JUSTICE</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_MON_CALAMARI_JUSTICE
+			TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+			TEXT_TOOLTIP_MON_CALAMARI_JUSTICE_HULL
+			TEXT_TOOLTIP_MON_CALAMARI_JUSTICE_SHIELD
+			TEXT_TOOLTIP_MON_CALAMARI_CRUISER_MOVE
+			TEXT_TOOLTIP_MON_CALAMARI_JUSTICE_SQUADRON
+			TEXT_TOOLTIP_MON_CALAMARI_JUSTICE_WEAP1
+			TEXT_TOOLTIP_MON_CALAMARI_JUSTICE_WEAP2
+			TEXT_TOOLTIP_MON_CALAMARI_JUSTICE_WEAP3
+			TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+			TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+			TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_TOOLTIP_SHIPCREWS_TIER_4</Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>MC80_Justice.ALO</Space_Model_Name>
+
+		<Required_Planets>Mon_Calamari, Roche</Required_Planets>
+
+		<Build_Cost_Credits>4900</Build_Cost_Credits>
+		<Build_Time_Seconds>80</Build_Time_Seconds>
+
+		<Shield_Points>5500</Shield_Points>
+		<Shield_Refresh_Rate>55</Shield_Refresh_Rate>
+		<Tactical_Health>3750</Tactical_Health>
+		<AI_Combat_Power>1930</AI_Combat_Power>
+		<Population_Value>23</Population_Value>
+
+		<HardPoints>
+			HP_Justice_Cruiser_Engines,
+			HP_Justice_Cruiser_Bay_01,
+			HP_Justice_Cruiser_Bay_02,
+			HP_Justice_Cruiser_Ion_01,
+			HP_Justice_Cruiser_Ion_02,
+			HP_Justice_Cruiser_Ion_03,
+			HP_Justice_Cruiser_Ion_04,
+			HP_Justice_Cruiser_Turbo_01,
+			HP_Justice_Cruiser_Turbo_02,
+			HP_Justice_Cruiser_Turbo_03,
+			HP_Justice_Cruiser_Turbo_04,
+			HP_Justice_Cruiser_Turbo_05,
+			HP_Justice_Cruiser_Turbo_06,
+			HP_Justice_Cruiser_Proton_01,
+			HP_Justice_Cruiser_Proton_02
+		</HardPoints>
+
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>HWing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron_Double, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>HWing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Recharge_Seconds>150</Recharge_Seconds>
+				<Expiration_Seconds>8</Expiration_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
 	
 	<SpaceUnit Name="Venator_Refit">
 		<Variant_Of_Existing_Type>Template_Venator_Refit</Variant_Of_Existing_Type>
 
-		<Affiliation>Hutt_Cartels</Affiliation>
+		<Affiliation>Empire, Hutt_Cartels</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>
-		Pirate_Base,
-		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
+			Pirate_Base |
+			Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four,
+			AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
 		</Required_Special_Structures>
 		<Required_Planets/>
 		<GUI_Row> 0 </GUI_Row>

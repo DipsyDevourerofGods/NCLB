@@ -24,8 +24,9 @@ return {
 	["DARKSABER"] = 0,
 	-- Pirate Base
 	["IPV1_GUNBOAT"] = 0,
+	["CHARGER_C70"] = 0,
 	["MARAUDER_MISSILE_CRUISER"] = 0,
 	["SUPER_TRANSPORT_VI"] = 0,
 	["DREADNAUGHT_LASERS"] = 0,
-	["VENATOR_REFIT"] = 0,
+	["VENATOR_REFIT"] = 0
 }

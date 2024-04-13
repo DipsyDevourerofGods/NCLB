@@ -4,6 +4,7 @@ return {
 	["MUQARAEA"] = 0,
 	["BAOMU"] = 0,
 	["FRUORO"] = 0,
+	["KATANA_DREADNAUGHT_EMPIRE"] = 0,
 	["ORMOS"] = 0,
 	["ROHKEA"] = 0,
 	["KUURO"] = 0,

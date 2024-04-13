@@ -1366,7 +1366,7 @@
 	<SpaceUnit Name="Bulwark_II">
 		<Variant_Of_Existing_Type>Template_Bulwark_II</Variant_Of_Existing_Type>
 
-		<Affiliation>Corporate_Sector</Affiliation>
+		<Affiliation>Rebel, Corporate_Sector</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
@@ -1375,8 +1375,9 @@
 		<Property_Flags>Boardable</Property_Flags>
 				
 		<Required_Special_Structures>
-		CSA_Ship_Market,
-		AI_Category_Dummy | Capital_Category_Dummy
+			CSA_Ship_Market |
+			NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
+			AI_Category_Dummy | Capital_Category_Dummy
 		</Required_Special_Structures>
 	
 		<Required_Planets/>
@@ -1643,13 +1644,14 @@
 		<Property_Flags>Boardable</Property_Flags>
 		
 		<Required_Special_Structures>
-		CSA_Ship_Market |
-		Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
-		Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |	
-		Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
-		Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
-		Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four,
-		AI_Category_Dummy | Capital_Category_Dummy		
+			CSA_Ship_Market |
+			NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
+			Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four,
+			AI_Category_Dummy | Capital_Category_Dummy
 		</Required_Special_Structures>
 	
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
@@ -1960,7 +1962,7 @@
 		AI_Category_Dummy | Capital_Category_Dummy</Required_Special_Structures>
 		
 		<Tech_Level>0</Tech_Level>
-		<Affiliation>Pentastar, Greater_Maldrood, Empire</Affiliation> <!-- ZC -->
+		<Affiliation>Pentastar, Empire</Affiliation> <!-- ZC -->
 		
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
@@ -2219,11 +2221,11 @@
 	
 	<SpaceUnit Name="Generic_Maelstrom">
 		<Variant_Of_Existing_Type>Template_Maelstrom</Variant_Of_Existing_Type>
-		<Affiliation>Independent_Forces</Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Greater_Maldrood, Independent_Forces</Affiliation>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
 		<Property_Flags>Boardable</Property_Flags>
 
 		<GUI_Row> 0 </GUI_Row>
@@ -3189,16 +3191,26 @@
 	
 	<SpaceUnit Name="Home_One_Type_Liner">
 		<Variant_Of_Existing_Type>Template_Home_One_Type_Liner</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Rebel</Affiliation>
-		
+
 		<Tech_Level>99</Tech_Level>
-		
+
 		<Required_Special_Structures>
-		NewRepublic_Shipyard_Level_Four,
-		AI_Category_Dummy | Dreadnought_Category_Dummy
+			EotH_Shipyard_Level_One | EotH_Shipyard_Level_Two | EotH_Shipyard_Level_Three | EotH_Shipyard_Level_Four |
+			Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_One | Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_One | Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Eriadu_Shipyard_Level_One | Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Pentastar_Shipyard_Level_One | Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four |
+			Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
+			Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+			DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN,
+			AI_Category_Dummy | Dreadnought_Category_Dummy
 		</Required_Special_Structures>
-		
+		<Required_Planets>Mon_Calamari</Required_Planets>
+
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
 		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -4665,8 +4677,8 @@
 		<AI_Combat_Power>7079</AI_Combat_Power>
 		<Autoresolve_Health>33000</Autoresolve_Health>
 		<Damage>70</Damage>
-		
-		<Affiliation/>
+
+		<Affiliation>Eriadu_Authority</Affiliation>
 		<Political_Control/>
 		<Maintenance_Cost>180</Maintenance_Cost>
 
@@ -4681,7 +4693,7 @@
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>40</Squadron_Capacity>
 
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
@@ -4690,7 +4702,14 @@
 		<Build_Cost_Credits>15000</Build_Cost_Credits>
 		<Build_Time_Seconds>300</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+			Empire_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Pentastar_Shipyard_Level_Four |
+			Eriadu_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_Four,
+			AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>no</Build_Initially_Locked>
