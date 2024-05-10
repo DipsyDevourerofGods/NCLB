@@ -4,11 +4,13 @@
     "\\Data",
     "\\Data\\Scripts",
     "\\Data\\Scripts\\Library",
-    "\\Data\\Scripts\\Library\\roster-sets",
+    "\\Data\\Scripts\\Library\\eawx-states",
+    "\\Data\\Scripts\\Library\\eawx-states\\tech",
     "\\Data\\Text",
     "\\Data\\XML",
+    "\\Data\\XML\\Structures",
     "\\Data\\XML\\Units"
   ],
-  "SelectedNode": "\\Data\\XML\\Units\\Units_Frigates.xml",
+  "SelectedNode": "\\Data\\XML\\Units\\Units_Capitals.xml",
   "PreviewInSolutionExplorer": false
 }

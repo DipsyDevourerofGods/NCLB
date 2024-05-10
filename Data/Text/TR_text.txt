@@ -331,11 +331,11 @@ TEXT_CLUTCH_SQUADRON,Clutch Squadron
 TEXT_CLUTCH_SQUADRON_HALF,Clutch Squadron 1/2
 TEXT_CLUTCH_SQUADRON2,Clutch Squadron x2
 TEXT_COMPANY_ADC,Authority Defense Collective
-TEXT_COMPANY_ADC_DESCRIPTION,Products from a collection of small CSA companies: Etti Lighter, GX12 Hovervan, and X10 Groundcruiser.
+TEXT_COMPANY_ADC_DESCRIPTION,Products from a collection of small CSA companies: Etti Lighter, Skandrei Gunship, GX12 Hovervan, and X10 Groundcruiser.
 TEXT_COMPANY_ALIGNMENT_CAPITAL,Pentastar Alignment Capital
 TEXT_COMPANY_ARAKYD,Arakyd Industries
 TEXT_COMPANY_ARAKYD_DESCRIPTION,All Arakyd products: XR-85 Tank Droid, Hunter-Killer Probot, and Probe Droid.
-TEXT_COMPANY_ARATECH_DESCRIPTION,All Aratech products: 74-Z Speeder Bike Scout, 64-Y Swift 3 Repulsor Sled, and Infantry Support Platform.
+TEXT_COMPANY_ARATECH_DESCRIPTION,All Aratech products: 74-Z Speeder Bike Scout, 64-Y Swift 3 Repulsor Sled, Infantry Support Platform, Arrow-23, and Aratech Battle Platform.
 TEXT_COMPANY_BAKTOID,Baktoid Industrial Systems
 TEXT_COMPANY_BAKTOID_DESCRIPTION,All Baktoid products: B1 Battle Droid, Destroyer Droid-II, Dwarf Spider Droid, and CA Artillery.
 TEXT_COMPANY_BALMORRAN_ARMS_DESCRIPTION,Balmorran Arms and licensed products: B1 Battle Droid, SD-6 Hulk Droid, SD-9 Battle Droid, SD-10 Battle Droid, X-1 Viper, AT-ST Walker variants.
@@ -400,7 +400,7 @@ TEXT_COMPANY_GORMTALQUIST_DESCRIPTION,All Gorm•Talquist products: S-1 FireHawk
 TEXT_COMPANY_GUARJA_DESCRIPTION,All Guarja products: Juvard Frigate, Barabbula Frigate, Tarrada Frigate, Batil Carrier, Szajin Cruiser, Karagga Destroyer, Chelandion Cruiser, Vontor Destroyer, Karabos Destroyer, and Dor'bulla
 TEXT_COMPANY_HAND_GOVERNOROFFICE,Governor's Office
 TEXT_COMPANY_HOERSCH_KESSEL_DESCRIPTION,All Hoersch-Kessel products: Recusant Light Destroyer, Core Ship, and Lucrehulk Battle Carrier.
-TEXT_COMPANY_INCOM_DESCRIPTION,All Incom products: Assault T-47 Speeder.
+TEXT_COMPANY_INCOM_DESCRIPTION,All Incom products: Assault T-47 Speeder and X4 Gunship.
 TEXT_COMPANY_JEDI_TEMPLE,Jedi Praxeum
 TEXT_COMPANY_JEDI_TEMPLE_DESCRIPTION,An academy to train the knights of the New Jedi Order, called a praxeum after ancient roots that combine the concepts of learning and action.
 TEXT_COMPANY_KDY_BRANCH,KDY Subsidiary
@@ -413,7 +413,7 @@ TEXT_COMPANY_LORONAR_DESCRIPTION,All Loronar products: Strike Cruiser variants, 
 TEXT_COMPANY_MALDROOD_CAPITAL,Greater Maldrood Capital
 TEXT_COMPANY_MANDAL_MOTORS_DESCRIPTION,All MandalMotors products: Canderous Tank, Kom'rk-class Fighter, Keldabe Battleship.
 TEXT_COMPANY_MCS,Mon Calamari Shipyards
-TEXT_COMPANY_MCS_DESCRIPTION,All Mon Calamari Shipyards products: MC30c, MC40a, MC75, MC80, MC80B, MC90, Home One Type, Mediator Battle Cruiser, Mon Calamari Heavy Carrier, and Viscount.
+TEXT_COMPANY_MCS_DESCRIPTION,All Mon Calamari Shipyards products: MC30c, MC30a, MC40a, Princess Transport Cruiser, MC75, MC80, MC80B, MC90, Home One Type, Mediator Battle Cruiser, Mon Calamari Heavy Carrier, and Viscount.
 TEXT_COMPANY_MEKUUN_DESCRIPTION,All Mekuun products: Repulsor Scout, Armored Personnel Carrier, Swift Assault 5, UT-AA, and Heavy Tracker.
 TEXT_COMPANY_MERKUNI,Merkuni Drives
 TEXT_COMPANY_MERKUNI_DESCRIPTION,All Merkuni products: Trenchant Cruiser, Imperial Escort Carrier.
@@ -438,13 +438,13 @@ TEXT_COMPANY_SFS_DESCRIPTION,All Syca Fleet Systems Corporation products: Fruoro
 TEXT_COMPANY_SIENAR,Sienar Fleet Systems
 TEXT_COMPANY_SIENAR_DESCRIPTION,All Sienar products: Reconnaissance Troop Transporter, TIE Mauler, TIE Crawler, ULAV, Lancet Aerial Artillery, Ye-4 Gunship, Guardian Light Cruiser, IPV Patrol Craft variants, Marauder Cruiser, Vindicator Heavy Cruiser, Enforcer Picket Ship, Twin Well Immobilizer Cruiser, Immobilizer 418 Cruiser, and Interdictor Star Destroyer.
 TEXT_COMPANY_SLAYN_KORPIL,Slayn & Korpil
-TEXT_COMPANY_SLAYN_KORPIL_DESCRIPTION,Slayn and Korpil assisted production of Mon Calamari Shipyards products: MC30c, MC40a, MC75, MC80, MC80B, and MC90.
+TEXT_COMPANY_SLAYN_KORPIL_DESCRIPTION,Slayn and Korpil assisted production of Mon Calamari Shipyards products: MC30a, MC30c, MC40a, MC75, MC80, MC80B, and MC90.
 TEXT_COMPANY_SOROSUUB_DESCRIPTION,All SoroSuub products: AAC variants, Flashblind Airspeeder, Quasar Fire Escort Carrier, Dauntless Heavy Cruiser, Liberator Cruiser, and Bulwark-III Battlecruiser.
 TEXT_COMPANY_SSIRUU_CAPITAL,Cree'n'aak Palace
 TEXT_COMPANY_SSIRUU_PALACE,Ssi-Ruuvi Palace
 TEXT_COMPANY_TAGGECO,TaggeCo
-TEXT_COMPANY_TAGGECO_DESCRIPTION,All TaggeCo products: JX40 Jailspeeder, Strikebreaker, A-A5 Speeder Truck, Modular Taskforce Cruiser variants, and Tagge Battlecruiser.
-TEXT_COMPANY_TAIM_BAK_DESCRIPTION,All Taim & Bak products: Mobile Artillery Hovertank variants and Heavy Artillery Platform.
+TEXT_COMPANY_TAGGECO_DESCRIPTION,All TaggeCo products: JX30 Jailspeeder, JX40 Jailspeeder, Strikebreaker, A-A5 Speeder Truck, A-A70 Command Speeder,  Modular Taskforce Cruiser variants, and Tagge Battlecruiser.
+TEXT_COMPANY_TAIM_BAK_DESCRIPTION,All Taim & Bak products: Mobile Artillery Hovertank variants, Heavy Artillery Platform, and MZ-8 Mobile Pulse Cannon.
 TEXT_COMPANY_TARKIN_ESTATES,Tarkin Family Estates
 TEXT_COMPANY_TARKIN_ESTATES_DESCRIPTION,The influential Tarkin family is the dominant political force on Eriadu. Provides a discount and time reduction on all military hardware.
 TEXT_COMPANY_TELGORN,Telgorn Corporation
@@ -456,7 +456,7 @@ TEXT_COMPANY_ULBAN_DESCRIPTION,All Ulban products: Class I Defense Droids.
 TEXT_COMPANY_UULSHOS_DESCRIPTION,All Uulshos products: LAVr QH-7 Chariot, Infantry Support Platform, and SX20 Airskimmer.
 TEXT_COMPANY_YEVETHA_CAPITAL,Duskhan League Capital
 TEXT_COMPANY_YUTRANE_TRACKATA,Yutrane-Trackata
-TEXT_COMPANY_YUTRANE_TRACKATA_DESCRIPTION,All Yutrane-Trackata products: T1-B, T2-B, T3-B, and T4-B.
+TEXT_COMPANY_YUTRANE_TRACKATA_DESCRIPTION,All Yutrane-Trackata products: T1-B, T2-A, T2-B, T3-B, T4-A, MZ-8 Mobile Pulse Cannon, and T4-B.
 TEXT_COMPANY_ZSINJ_CAPITAL,Rancor Base (Capital)
 TEXT_COMPANY_ZZIP,zZip Defense Concepts
 TEXT_COMPANY_ZZIP_DESCRIPTION,All zZip products: K-222 Aero-Interceptors.

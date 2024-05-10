@@ -208,7 +208,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 					Eclipse_Star_Destroyer, Assertor, Generic_Executor, Sovereign, Generic_Vengeance, Generic_Mandator_III, Generic_Mandator_II, Generic_Bellator, Generic_Praetor, Generic_Praetor_Carrier, Generic_Sorannan, Generic_Allegiance, Generic_Secutor, Generic_Tector, Generic_Star_Destroyer_Two, Generic_Dominator, Generic_Star_Destroyer, Mothma_Star_Destroyer, Generic_Venator, Generic_Victory_Destroyer, Generic_Victory_Destroyer_Two, Generic_Procursator, Crimson_Victory, Generic_Gladiator_Two, Generic_Gladiator, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Generic_Acclamator_Assault_Ship_I, Generic_Acclamator_Assault_Ship_II, Generic_Acclamator_Assault_Ship_Leveler, Nebulon_B_Zsinj, Nebulon_B_Empire, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Escort_Carrier, Eidolon, Enforcer, Surveyor_Frigate, Active_Frigate, Vigil, Broadside_Cruiser, Generic_Pursuit, Generic_Imperial_I_Frigate, Generic_Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, Decimator_Squadron, Adz, Star_Galleon, Galleon, Raider_II_Corvette, Raider_Corvette, Lancer_Frigate, Super_Transport_XI_Modified,
-					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, A6_Influence, Supercruiser
+					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, A6_Influence, Hand_A4_Juggernaut_Company, Supercruiser
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -219,7 +219,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 					Eclipse_Star_Destroyer, Assertor, Generic_Executor, Sovereign, Generic_Vengeance, Generic_Mandator_III, Generic_Mandator_II, Generic_Bellator, Generic_Praetor, Generic_Praetor_Carrier, Generic_Sorannan, Generic_Allegiance, Generic_Secutor, Generic_Tector, Generic_Star_Destroyer_Two, Generic_Dominator, Generic_Star_Destroyer, Mothma_Star_Destroyer, Generic_Venator, Generic_Victory_Destroyer, Generic_Victory_Destroyer_Two, Generic_Procursator, Crimson_Victory, Generic_Gladiator_Two, Generic_Gladiator, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Generic_Acclamator_Assault_Ship_I, Generic_Acclamator_Assault_Ship_II, Generic_Acclamator_Assault_Ship_Leveler, Nebulon_B_Zsinj, Nebulon_B_Empire, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Escort_Carrier, Eidolon, Enforcer, Surveyor_Frigate, Active_Frigate, Vigil, Broadside_Cruiser, Generic_Pursuit, Generic_Imperial_I_Frigate, Generic_Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, Decimator_Squadron, Adz, Star_Galleon, Galleon, Raider_II_Corvette, Raider_Corvette, Lancer_Frigate, Super_Transport_XI_Modified,
-					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, A6_Influence, Supercruiser
+					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, A6_Influence, Hand_A4_Juggernaut_Company, Supercruiser
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
@@ -237,7 +237,7 @@
 		<Land_Model_Name>W_ImperialPalace.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		
-		<Affiliation>Empire, Rebel, Pentastar, Zsinj_Empire, Greater_Maldrood, Eriadu_Authority, Corporate_Sector</Affiliation>
+		<Affiliation>Empire, Rebel, Pentastar, Zsinj_Empire, Greater_Maldrood, Eriadu_Authority, Corporate_Sector, EmpireoftheHand</Affiliation>
 
 		<Build_Cost_Credits>10000</Build_Cost_Credits>
 		
@@ -271,7 +271,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 					Generic_Allegiance, Generic_Secutor, Generic_Tector, Generic_Star_Destroyer_Two, Generic_Dominator, Generic_Star_Destroyer, Mothma_Star_Destroyer, Generic_Venator, Generic_Victory_Destroyer, Generic_Victory_Destroyer_Two, Generic_Procursator, Crimson_Victory, Generic_Gladiator_Two, Generic_Gladiator, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Generic_Acclamator_Assault_Ship_I, Generic_Acclamator_Assault_Ship_II, Generic_Acclamator_Assault_Ship_Leveler, Nebulon_B_Zsinj, Nebulon_B_Empire, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Escort_Carrier, Eidolon, Enforcer, Surveyor_Frigate, Active_Frigate, Vigil, Broadside_Cruiser, Generic_Pursuit, Generic_Imperial_I_Frigate, Generic_Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, Decimator_Squadron, Adz, Star_Galleon, Galleon, Raider_II_Corvette, Raider_Corvette, Lancer_Frigate, Super_Transport_XI_Modified,
-					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Supercruiser
+					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hand_A4_Juggernaut_Company, Supercruiser
 				</Applicable_Unit_Types>				
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -282,7 +282,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 					Generic_Allegiance, Generic_Secutor, Generic_Tector, Generic_Star_Destroyer_Two, Generic_Dominator, Generic_Star_Destroyer, Mothma_Star_Destroyer, Generic_Venator, Generic_Victory_Destroyer, Generic_Victory_Destroyer_Two, Generic_Procursator, Crimson_Victory, Generic_Gladiator_Two, Generic_Gladiator, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Generic_Acclamator_Assault_Ship_I, Generic_Acclamator_Assault_Ship_II, Generic_Acclamator_Assault_Ship_Leveler, Nebulon_B_Zsinj, Nebulon_B_Empire, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Escort_Carrier, Eidolon, Enforcer, Surveyor_Frigate, Active_Frigate, Vigil, Broadside_Cruiser, Generic_Pursuit, Generic_Imperial_I_Frigate, Generic_Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, Decimator_Squadron, Adz, Star_Galleon, Galleon, Raider_II_Corvette, Raider_Corvette, Lancer_Frigate, Super_Transport_XI_Modified,
-					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Supercruiser
+					Imperial_AT_AT_Refit_Company, Imperial_AT_AT_Company, Imperial_A5_Juggernaut_Company, Imperial_B5_Juggernaut_Company, Imperial_A9_Fortress_Company, Imperial_C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_IDT_Group, Imperial_MAAT_Group, Imperial_Modified_LAAT_Group, Imperial_INT4_Group, Imperial_AT_AA_Company, Imperial_UT_AA_Company, Imperial_SPMAG_Company, Imperial_SPMAT_Company, Imperial_2M_Company, Imperial_1H_Tank_Company, Imperial_1M_Tank_Company, Imperial_1L_Tank_Company, Imperial_AT_ST_A_Company, Imperial_AT_ST_Company, Imperial_AT_MP_Company, Imperial_AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hand_A4_Juggernaut_Company, Supercruiser
 				</Applicable_Unit_Types>				
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
@@ -302,7 +302,7 @@
 		
 		<Icon_Name>I_BUTTON_TAIM_BAK.TGA</Icon_Name>
 		
-		<Affiliation>Pentastar, Eriadu_Authority, Greater_Maldrood</Affiliation>
+		<Affiliation>Pentastar, Eriadu_Authority, Greater_Maldrood, EmpireoftheHand</Affiliation>
 		
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		
@@ -329,7 +329,7 @@
 			<Reduce_Production_Price_Ability Name="Taim_Bak_Reduce_Production_Price">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Imperial_Light_Artillery_Company, Imperial_Heavy_Artillery_Company, Imperial_Missile_Artillery_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Imperial_Light_Artillery_Company, Imperial_Heavy_Artillery_Company, Imperial_Missile_Artillery_Company, Hand_MZ8_Company </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
@@ -337,7 +337,7 @@
 			<Reduce_Production_Time_Ability Name="Taim_Bak_Production_Time_Bonus">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Imperial_Light_Artillery_Company, Imperial_Heavy_Artillery_Company, Imperial_Missile_Artillery_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Imperial_Light_Artillery_Company, Imperial_Heavy_Artillery_Company, Imperial_Missile_Artillery_Company, Hand_MZ8_Company </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -1017,7 +1017,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				Bulwark_III, Dauntless, Liberator_Cruiser, Quasar,
-				Rebel_AAC_2_Company, Rebel_AAC_3_Company, Imperial_Flashblind_Group, Gian_Influence
+				Rebel_AAC_2_Company, Rebel_AAC_3_Company, Imperial_Flashblind_Group, Hand_AAC_1_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -1028,7 +1028,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				Bulwark_III, Dauntless, Liberator_Cruiser, Quasar,
-				Rebel_AAC_2_Company, Rebel_AAC_3_Company, Imperial_Flashblind_Group, Gian_Influence
+				Rebel_AAC_2_Company, Rebel_AAC_3_Company, Imperial_Flashblind_Group, Hand_AAC_1_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
@@ -1297,7 +1297,7 @@
 			<Reduce_Production_Price_Ability Name="Yutrane_Reduce_Production_Price">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Rebel_T1B_Company, Rebel_T2B_Company, Rebel_T3B_Company, Rebel_T4B_Company, Hand_T2A_Company, Hand_T4A_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Rebel_T1B_Company, Rebel_T2B_Company, Rebel_T3B_Company, Rebel_T4B_Company, Hand_T2A_Company, Hand_MZ8_Company, Hand_T4A_Company </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
@@ -1305,7 +1305,7 @@
 			<Reduce_Production_Time_Ability Name="Yutrane_Production_Time_Bonus">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Rebel_T1B_Company, Rebel_T2B_Company, Rebel_T3B_Company, Rebel_T4B_Company, Hand_T2A_Company, Hand_T4A_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Rebel_T1B_Company, Rebel_T2B_Company, Rebel_T3B_Company, Rebel_T4B_Company, Hand_T2A_Company, Hand_MZ8_Company, Hand_T4A_Company </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -1473,7 +1473,7 @@
 			<Reduce_Production_Price_Ability Name="Slayn_Korpil_Reduce_Production_Price">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Calamari_Cruiser, MC80B, MC90, MC30c, MC40a, MC75, Calamari_Justice </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Calamari_Cruiser, MC80B, MC90, MC30a, MC30c, MC40a, MC75, Calamari_Justice </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
@@ -1481,7 +1481,7 @@
 			<Reduce_Production_Time_Ability Name="Slayn_Korpil_Production_Time_Bonus">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Calamari_Cruiser, MC80B, MC90, MC30c, MC40a, MC75, Calamari_Justice  </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Calamari_Cruiser, MC80B, MC90, MC30a, MC30c, MC40a, MC75, Calamari_Justice  </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -1649,7 +1649,7 @@
 			<Reduce_Production_Price_Ability Name="Aratech_Reduce_Production_Price">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Imperial_74Z_Bike_Company, Imperial_64Y_Company, CSA_64Y_Company, Zsinj_74Z_Bike_Company, Imperial_ISP_Company, Aratech_Battle_Platform_Influence </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Imperial_74Z_Bike_Company, Imperial_64Y_Company, CSA_64Y_Company, Zsinj_74Z_Bike_Company, Imperial_ISP_Company, Hand_ISP_Company, Hand_Arrow_23_Company, Aratech_Battle_Platform_Influence </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
@@ -1657,7 +1657,7 @@
 			<Reduce_Production_Time_Ability Name="Aratech_Production_Time_Bonus">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Imperial_74Z_Bike_Company, Imperial_64Y_Company, CSA_64Y_Company, Zsinj_74Z_Bike_Company, Imperial_ISP_Company, Aratech_Battle_Platform_Influence </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Imperial_74Z_Bike_Company, Imperial_64Y_Company, CSA_64Y_Company, Zsinj_74Z_Bike_Company, Imperial_ISP_Company, Hand_ISP_Company, Hand_Arrow_23_Company, Aratech_Battle_Platform_Influence </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>

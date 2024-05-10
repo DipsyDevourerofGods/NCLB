@@ -17,6 +17,7 @@ Bulwark 2 (requires Sian Tevv as CoS, replaces MC80B)
 
 [u] Empire [/u]
 Refurbished Venator (Replaces Procursator, eras 6-7 only)
+Communications Battlecruiser (Daala and Pellaeon regimes, replaces Praetor II)
 Missile Boat (replaces Empire ship Starwing spawns in Eras 3 and 7)
 
 [u] Warlord Zsinj [/u]
@@ -56,11 +57,11 @@ Starbolt Assault Carrier (Corellia, 7+ influence)
 Wurrif Cruiser (Lwhekk, 7+ influence)
 L'Whekk Manufacturing Ship (Lwhekk, 9+ influence)
 Shree Battlecruiser (Lwhekk, 10+ influence)
-Dauntless Heavy Transport Cruiser (Sullust, 9+ influence) (NR Excluded)
+Dauntless Heavy Transport Cruiser (Sullust, 9+ influence, NR excluded) 
 Princess Transport Cruiser (Mon Cala, 8+ influence)
-Liberty Transport Cruiser (Mon Cala, 9+ influence) (NR Excluded)
-Home One Exploration Cruiser (Mon Cala, 10 influence) (NR Excluded)
-Lucrehulk-class Auxilary Warship (Oslumpex V, 10 influence) (CSA Excluded)
+Liberty Transport Cruiser (Mon Cala, 9+ influence, NR excluded) 
+Home One Exploration Cruiser (Mon Cala, 10 influence, NR excluded) 
+Lucrehulk-class Auxilary Warship (Oslumpex V, 10 influence, CSA excluded) 
 Aramadia-class SSD (N'Zoth, 10 influence)
 
 [h1] - GROUND UNITS [/h1]
@@ -137,7 +138,7 @@ A6 Juggernaut (Kuat, 10 influence)
 Aratech Battle Platform (Carida, 10 Influence)
 Gian Speeder (Sullust, 8+ influence)
 Ssi-Ruuk Troopers (Lwhekk, 7+ influence)
-Local Force Cultists (Korriban, 7+ influence)
+Local Force Cultists (Korriban, 7+ influence, NR Excluded)
 
 [h1] - WARNING [/h1]
 This submod is guaranteed to be incompatible with any other submod that edits the XML or LUA code for units, structures, or Heroes (which is almost all of them). If you run into any problems while trying to run this submod with others, be sure to double check which files the two mods edit.

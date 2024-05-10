@@ -306,6 +306,9 @@
 
 	<SpaceUnit Name="CEC_Light_Cruiser_Influence">
 		<Variant_Of_Existing_Type>CEC_Light_Cruiser</Variant_Of_Existing_Type>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
 		<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
 		<Required_Special_Structures>
 			NewRepublic_Shipyard_Level_Three |
@@ -319,13 +322,16 @@
 			Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
 			Hutt_Shipyard_Level_Three,
 			DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_EIGHT | INFLUENCE_SEVEN,
-			AI_Category_Dummy | Dreadnought_Category_Dummy
+			AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Required_Planets>Corellia</Required_Planets>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Starbolt_Influence">
 		<Variant_Of_Existing_Type>Starbolt</Variant_Of_Existing_Type>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
 		<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
 		<Required_Special_Structures>
 			NewRepublic_Shipyard_Level_Three |
@@ -339,7 +345,7 @@
 			Hapan_Shipyard_Royal | Hapan_Shipyard_Galney | Hapan_Shipyard_Requud | Hapan_Shipyard_Maluri | Hapan_Shipyard_AlGray | Hapan_Shipyard_Corr | Hapan_Shipyard_Thane |
 			Hutt_Shipyard_Level_Three,
 			DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_EIGHT | INFLUENCE_SEVEN,
-			AI_Category_Dummy | Dreadnought_Category_Dummy
+			AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Required_Planets>Corellia</Required_Planets>
 	</SpaceUnit>
@@ -425,7 +431,7 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Shree_Cruiser_Influence">
-		<Variant_Of_Existing_Type>Shree Cruiser</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Shree_Cruiser</Variant_Of_Existing_Type>
 		<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>
@@ -454,7 +460,7 @@
 			TEXT_TOOLTIP_LUCREHULKAUXILIARY_HULL
 			TEXT_TOOLTIP_LUCREHULKAUXILIARY_SHIELD
 			TEXT_TOOLTIP_LUCREHULKAUXILIARY_MOVE
-			TEXT_TOOLTIP_LUCREHULK_SQUADRON
+			TEXT_TOOLTIP_LUCREHULKAUXILIARY_SQUADRON
 			TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP1
 			TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP2
 			TEXT_TOOLTIP_LUCREHULKAUXILIARY_WEAP3
@@ -978,6 +984,15 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 	</GroundCompany>
 
+	<GroundCompany Name="Gian_Company_Influence">
+		<Variant_Of_Existing_Type>Gian_Company</Variant_Of_Existing_Type>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
+		<Required_Special_Structures> DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT </Required_Special_Structures>
+		<Required_Planets>Sullust</Required_Planets>
+	</GroundCompany>
+
 	<GroundCompany Name="A6_Juggernaut_Influence">
 		<Variant_Of_Existing_Type>Imperial_A6_Juggernaut_Company</Variant_Of_Existing_Type>
 		<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
@@ -993,14 +1008,6 @@
 		<Required_Planets>Carida</Required_Planets>
 	</GroundCompany>
 
-	<GroundCompany>Gian_Influence</GroundCompany>
-	<Variant_Of_Existing_Type>Gian_Company</Variant_Of_Existing_Type>
-	<Build_Initially_Locked>no</Build_Initially_Locked>
-	<Tech_Level>0</Tech_Level>
-	<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
-	<Required_Special_Structures> DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT </Required_Special_Structures>
-	<Required_Planets>Sullust</Required_Planets>
-
 	<GroundCompany Name="SsiRuuk_Soldier_Influence">
 		<Variant_Of_Existing_Type>SsiRuuk_Soldier_Squad</Variant_Of_Existing_Type>
 		<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
@@ -1012,7 +1019,7 @@
 		<Variant_Of_Existing_Type>PDF_Force_Cultist_Team</Variant_Of_Existing_Type>
 		<Build_Tab_Land_Units>yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>no</Build_Initially_Locked>
-		<Affiliation>Rebel, Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
+		<Affiliation>Empire, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Hapes_Consortium, Hutt_Cartels</Affiliation>
 		<Required_Special_Structures> DUMMY_CHIEFOFSTATE_GAVRISOM | INFLUENCE_TEN | INFLUENCE_NINE | INFLUENCE_EIGHT | INFLUENCE_SEVEN </Required_Special_Structures>
 		<Required_Planets>Korriban</Required_Planets>
 	</GroundCompany>

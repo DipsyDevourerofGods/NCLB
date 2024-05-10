@@ -27,6 +27,7 @@ return {
 				"Generic_Executor",
 				"Generic_Praetor",
 				"Eidolon",
+				"Communications_Battlecruiser",
 				"Venator_Refit",
 				"Imperial_Elite_Guard_Stormtrooper_Company",
 				"Imperial_Shadow_Stormtrooper_Squad",

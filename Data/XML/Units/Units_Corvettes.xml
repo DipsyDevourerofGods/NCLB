@@ -3583,7 +3583,16 @@
 		<Population_Value>2</Population_Value>
 		<Affiliation>Zsinj_Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>
+			Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+			Zsinj_Shipyard_Level_One | Zsinj_Shipyard_Level_Two | Zsinj_Shipyard_Level_Three | Zsinj_Shipyard_Level_Four | Rancor_Base |
+			Pentastar_Shipyard_Level_One | Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
+			Eriadu_Shipyard_Level_One | Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
+			Greater_Maldrood_Shipyard_Level_One | Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four,
+			AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
 		<Required_Planets>Atchorb, Bonadan, Ession, Etti, Kalla, Maryo, Mytus, Orron, Oslumpex, Saffalore, Trian, Ulicia</Required_Planets>
+		
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -11331,7 +11340,7 @@
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
-		<Required_Planets>Mon_Calamari</Required_Planets>
+		<Required_Planets>Mon_Calamari, Roche</Required_Planets>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>

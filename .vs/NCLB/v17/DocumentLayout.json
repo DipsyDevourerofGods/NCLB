@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\Scripts\\Library\\roster-sets\\PENTASTAR.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Scripts\\Library\\roster-sets\\PENTASTAR.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\XML\\Units\\Units_Frigates.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\XML\\Units\\Units_Frigates.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\XML\\Units\\Units_Capitals.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\XML\\Units\\Units_Capitals.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -22,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAAdAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-04-04T21:50:09.767Z",
               "IsPinned": true,
@@ -40,28 +36,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Units_Frigates.xml",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\XML\\Units\\Units_Frigates.xml",
-              "RelativeDocumentMoniker": "Data\\XML\\Units\\Units_Frigates.xml",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\XML\\Units\\Units_Frigates.xml",
-              "RelativeToolTip": "Data\\XML\\Units\\Units_Frigates.xml",
-              "ViewState": "AQIAAO0CAAAAAAAAAAAAwAYDAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-04-13T00:50:04.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PENTASTAR.lua",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\Scripts\\Library\\roster-sets\\PENTASTAR.lua",
-              "RelativeDocumentMoniker": "Data\\Scripts\\Library\\roster-sets\\PENTASTAR.lua",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\Scripts\\Library\\roster-sets\\PENTASTAR.lua",
-              "RelativeToolTip": "Data\\Scripts\\Library\\roster-sets\\PENTASTAR.lua",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-13T00:49:43.251Z",
+              "Title": "Units_Capitals.xml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\XML\\Units\\Units_Capitals.xml",
+              "RelativeDocumentMoniker": "Data\\XML\\Units\\Units_Capitals.xml",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption\\Mods\\NCLB\\Data\\XML\\Units\\Units_Capitals.xml",
+              "RelativeToolTip": "Data\\XML\\Units\\Units_Capitals.xml",
+              "ViewState": "AQIAAEsGAAAAAAAAAAAAwGQGAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-02T03:24:36.546Z",
               "EditorCaption": ""
             }
           ]

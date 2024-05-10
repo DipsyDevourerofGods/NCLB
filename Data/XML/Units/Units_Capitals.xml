@@ -4678,7 +4678,7 @@
 		<Autoresolve_Health>33000</Autoresolve_Health>
 		<Damage>70</Damage>
 
-		<Affiliation>Eriadu_Authority</Affiliation>
+		<Affiliation>Eriadu_Authority, Empire</Affiliation>
 		<Political_Control/>
 		<Maintenance_Cost>180</Maintenance_Cost>
 

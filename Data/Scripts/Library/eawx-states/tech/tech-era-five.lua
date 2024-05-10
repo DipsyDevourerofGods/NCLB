@@ -46,6 +46,7 @@ return {
 			UnitUtil.SetLockList("EMPIRE", {
 				"Generic_Executor",
 				"Eidolon",
+				"Communications_Battlecruiser",
 				"Venator_Refit",
 				"Imperial_Royal_Guard_Stormtrooper_Company",
 				"Imperial_Elite_Guard_Stormtrooper_Company",

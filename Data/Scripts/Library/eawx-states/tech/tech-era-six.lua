@@ -44,6 +44,7 @@ return {
 
 			UnitUtil.SetLockList("EMPIRE", {
 				"Eidolon",
+				"Generic_Praetor",
 				"Generic_Procursator",
 				"Imperial_Royal_Guard_Stormtrooper_Company",
 				"Imperial_Shadow_Stormtrooper_Squad",
